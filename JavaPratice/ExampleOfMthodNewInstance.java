@@ -34,5 +34,5 @@ public class ExampleOfMthodNewInstance {
 }
 
 //to run the code 
-// ---> compile the code like "javac ExampleOfMthodNewInstance.java"
-// ---|> to run the code like "java ExampleOfMthodNewInstance <class name/if inside package the use \"pkg name.class name\">"
+// ---> compile the code :-like "javac ExampleOfMthodNewInstance.java"
+// --->run the code :- like "java ExampleOfMthodNewInstance <class name / if inside package then use "pkg name.class name">"
