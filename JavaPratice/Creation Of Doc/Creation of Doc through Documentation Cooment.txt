@@ -1,0 +1,3 @@
+1.Make Documentation Comments and write your comments related to class inside these symbols(/** comments*/).
+2.make a folder and move the java file inside that folder.
+3.Then open cmd and go to the same location where you stored file then write this cmd "javadoc file.java"
