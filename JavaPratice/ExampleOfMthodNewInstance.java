@@ -19,7 +19,7 @@ class Child extends Base{
 public class ExampleOfMthodNewInstance {
     public static void main(String[] args) {
         try{
-            //making class type object for class which we will dynamically input at time of run
+            //making class type object for class which we will dynamically input at run time
             Class c = Class.forName(args[0]);
             //here casting class type object into base class object because we don't know which class user will dynamically
             Base b = (Base)c.newInstance();
