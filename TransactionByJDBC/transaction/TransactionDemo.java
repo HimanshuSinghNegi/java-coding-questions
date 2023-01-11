@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import databaseinfo.ConnectionProvider;
-
+// Note : to run this file first  create a table into database which contains id and amount both are integer where id denotes account no.;
 public class TransactionDemo {
 	public static void main(String[] args) {
 		Connection con=null;
