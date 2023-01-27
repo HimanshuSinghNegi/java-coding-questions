@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <h2> Detail Form</h2>
+	<form action="RegisterServlet" method="post">
+	 <div class="form-group">
+    <label for="Name">Name </label>
+    <input type="text" class="form-control" name="name" >
+  </div>
+  
+   <div class="form-group">
+    <label for="password">Password </label>
+    <input type="password" class="form-control"  name="password">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" name="email">
+  </div>
+  
+  <div class="form-group">
+    <label for="number">Mobile Number </label>
+    <input type="number" class="form-control" name="p_no">
+  </div>
+  
+  <div class="form-group">
+    <label for="text">Address </label><br/>
+    <textarea rows="5" cols="120" placeholder="Enter your Address here ....." name="address"></textarea>
+  </div>
+  
+  <div class="checkbox">
+    <label><input type="checkbox" name="rememberMe"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-success">Register</button>
+</form></div>
+
+</body>
+</html>
